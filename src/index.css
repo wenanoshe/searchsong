@@ -1,0 +1,55 @@
+:root {
+   
+   --blue: #646cff;
+   
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 10px;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+a {
+  font-weight: 500;
+  color: var(--blue);
+  text-decoration: inherit;
+}
+
+a:hover {
+  color:  var(--blue);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-size: 1.6rem;
+  padding: 5rem 0 10%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+img {
+   max-width: 100%;
+}
+
+blockquote {
+   margin: 0;
+}
+
+p {
+   line-height: 1.6;
+}
