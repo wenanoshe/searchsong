@@ -3,14 +3,14 @@ import React from 'react';
 import Lyrics from './Lyrics';
 import Artist from './Artist';
 import Message from './Message';
-
+import './styles/SongDetails.css';
 
 export default function SongDetails ({ search, lyric, bio }) {
   
    if(!lyric || !bio) return null;
 
   return (
-   <div>
+   <div className='songDetails'>
       {
          lyric.error || lyric.err || lyric.name === "AbortError" 
          ? <Message msg={`Error, the song "${search.song}" doesn't exist`} bgColor='#dc3545' /> 

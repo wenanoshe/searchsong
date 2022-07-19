@@ -28,14 +28,13 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  margin: 2rem 5%;
   display: flex;
   align-items: center;
   justify-content: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 94vh;
   font-size: 1.6rem;
-  padding: 5rem 0 10%;
 }
 
 h1 {
@@ -53,3 +52,4 @@ blockquote {
 p {
    line-height: 1.6;
 }
+

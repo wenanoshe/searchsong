@@ -1,0 +1,14 @@
+.lyrics {
+   margin-top: 4rem;
+   flex-grow: 2;
+}
+
+@media screen and (min-width: 1024px) {
+  
+.songDetails {
+   display: grid;
+   grid-template-columns: minmax(30%, 1fr) 1fr;
+   gap: 2rem;
+}
+
+}

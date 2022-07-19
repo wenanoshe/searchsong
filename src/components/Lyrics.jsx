@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 export default function Lyrics ({ lyrics, title }) {
 
   return (
-    <div style={{marginTop: '4rem'}}>
+    <div className='lyrics'>
       <h3>{title}</h3>
       <blockquote style={{ whiteSpace: 'pre-wrap'}}>{lyrics}</blockquote>
     </div>
