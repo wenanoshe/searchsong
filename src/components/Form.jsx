@@ -35,7 +35,7 @@ export default function Form ({ handleSearch }) {
       <form className='form' onSubmit={handleSubmit} >
         <input className='form__input' type='text' name="song" placeholder='Song name' value={form.song} onChange={handleChange}/>
         <input className='form__input' type='text' name='artist' placeholder='Artist' value={form.artist} onChange={handleChange} />
-        <input className='form__submit' type='submit' placeholder='Send'/>
+        <input className='form__submit' type='submit' value='Search'/>
       </form>
     </div>
   )
